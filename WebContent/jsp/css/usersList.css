@@ -1,0 +1,187 @@
+.wrapper {
+	max-width: 78%;
+	height: auto;
+	margin: 70px 400px;
+	background-size: cover;
+	border-radius: 15px;
+	padding: 0 10%;
+}
+
+.content {
+	margin-left: 230px;
+	padding: 10px 10px;
+	background-color: white;
+	width: 600px;
+	height: auto;
+	border-radius: 20px;
+	color: black;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+a {
+	color: blue;
+	padding-bottom: 3px;
+	text-decoration: none
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+
+
+body {
+	background-color: var(- -dark);
+	color: var(- -white);
+	font-family: 'Rubik', sans-serif;
+	height: auto;
+}
+
+.header {
+	max-width: 1202px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.nav-item {
+	margin-left: 32px;
+}
+
+.nav-item-login {
+	margin-left: 56px;
+	border-right: 1px solid #F2F2F2;
+	padding-right: 24px;
+	font-weight: 500;
+}
+
+.nav-item-register {
+	margin-left: 24px;
+}
+
+.nav-link {
+	color: var(- -white);
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.2s ease color;
+}
+
+.nav-link:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-link-register {
+	background-color: var(- -blue);
+	padding: 14px 32px;
+	border-radius: 32px;
+	transition: 0.2s ease background-color;
+}
+
+.save {
+	display: flex;
+	max-width: 365px;
+}
+
+.nav-link-register:hover {
+	color: var(- -white);
+	background-color: blue;
+}
+
+.logotype {
+	width: 150px;
+	height: 100px;
+}
+
+.nav-add {
+	color: lightgreen;
+}
+
+.nav-add:hover {
+	color: #17ec17;
+}
+
+.wrapper {
+	max-width: 78%;
+	height: 300px;
+	margin: 0 auto;
+	align-items: center;
+	margin-top: 70px;
+	background-size: cover;
+	border-radius: 15px;
+	position: relative;
+}
+
+.btn {
+	padding: 8px 16px;
+	margin: 0 5px;
+	border-radius: 5px;
+	border: none;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.block {
+	background-color: rgba(38, 37, 37, 0.2);
+}
+
+.block:hover {
+	background-color: #c0c0b2;
+}
+
+.users-block {
+	background-color: #c0c0b2;
+}
+
+.users-block:hover {
+	background-color: #8f8a8a;
+}
+
+.edit {
+	background-color: greenyellow;
+}
+
+.edit:hover {
+	background-color: #96ef0d;
+}
+
+.delete {
+	background-color: red;
+}
+
+.delete:hover {
+	background-color: #da0101;
+}
+
+.add {
+	margin-left: 230px;
+	margin-bottom: 10px;
+	background-color: #17ec17;
+}
+
+.add:hover {
+	background-color: #02ff02;
+}
+
+.wr{
+    display: flex;
+}
+
+.btn delete{
+	margin-top:5px;
+}

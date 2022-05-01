@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,700;1,400&display=swap');
+:root{
+    --purple: rgb(194, 194, 236);
+    --white:#FBFCFE;
+    --blue: #3671E9;
+    --dark:#0D0D2B;
+}
+body{
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: 'Rubik', sans-serif;
+     height: auto;
+
+}
+.header{
+    max-width: 1202px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+
+}
+.nav-item{
+    margin-left: 32px;
+}
+.nav-item-login{
+    margin-left: 56px;
+    border-right: 1px solid #F2F2F2;
+    padding-right: 24px;
+    font-weight: 500;
+}
+.nav-item-register{
+    margin-left: 24px;
+
+}
+.nav-link{
+    color:var(--white);
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.2s ease color;
+}
+.nav-link:hover{
+    color:var(--blue);
+}
+
+.nav-link-register{
+    background-color: var(--blue);
+    padding: 14px 32px;
+    border-radius: 32px;
+    transition: 0.2s ease background-color;
+}
+
+.save{
+    display: flex;
+    max-width: 365px;
+}
+.nav-link-register:hover{
+    color:var(--white);
+    background-color:  var(--purple);
+}
+.logotype{
+    width: 150px;
+    height: 100px;
+}
+.nav-add{
+    color: lightgreen;
+}
+.nav-add:hover{
+    color: #17ec17;
+}
